@@ -751,7 +751,6 @@ main h1 span:hover {
 #reviews .review-ovar-all {
   display: flex;
   width: 100%;
-  overflow: hidden;
 }
 #reviews .review-ovar-all:hover .review-cards {
   animation-play-state: paused;
