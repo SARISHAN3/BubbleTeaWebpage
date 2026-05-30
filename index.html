@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bobble Tea Webpage</title>
+
+    <!-- font awsome icon link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Css file link -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Overall container -->
+    <div class="container">
+
+      <section id="intro">
+        <input type="checkbox" id="open-page">
+
+        <label for="open-page">
+          <img src="./assets/logo_dark.png" alt="Logo">
+        </label>
+      </section>
+
+      <!-- Full navbar -->
+      <header class="fade-down-start">
+        <!-- Links with logo -->
+        <div class="with-logo">
+          <a href="#"
+            ><img src="./assets/logo main 1.png" alt="webpage logo"
+          /></a>
+          <!-- All links -->
+          <nav>
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#products">PRODUCTS</a>
+            <a href="#reviews">REVIEWS</a>
+            <a href="#contact">CONTACT US</a>
+          </nav>
+        </div>
+
+        <!-- right nav side -->
+        <div class="right-nav">
+          <div class="search-box">
+            <input type="text" placeholder="Search ..." />
+            <i class="fa-brands fa-sistrix"></i>
+          </div>
+          <i class="fa-solid fa-dolly"></i>
+
+          <!-- mobile menu -->
+          <div class="click-menu">
+            <input type="checkbox" id="click-menu-mob" />
+            <label for="click-menu-mob">
+              <i class="mob-menu fa-solid fa-bars"></i>
+            </label>
+          </div>
+        </div>
+      </header>
+
+      <!-- Home section -->
+      <main id="home">
+        <!-- Home left sec -->
+        <div class="left-home-sec fade-left-start">
+          <h1>
+            <span>B</span><span>U</span><span>B</span><span>B</span
+            ><span>L</span><span>E</span>
+          </h1>
+          <p>
+            Not just coffee, but a whole new experience in every cup. Our bubble
+            coffee blends smooth brews with bouncy pearls for a taste that
+            sparks joy.
+          </p>
+          <button class="main-button">BUY NOW</button>
+        </div>
+
+        <!-- home center sec image -->
+        <img
+          class="center-home-sec zoom-start"
+          src="./assets/main-bubble-tea.png"
+          alt="main bubble tea image"
+        />
+
+        <!-- Home right sec -->
+        <div class="right-home-sec fade-right-start">
+          <p>Brewing Happiness with Every Bubble</p>
+          <h1>
+            <span>C</span><span>O</span><span>F</span><span>F</span
+            ><span>E</span><span>E</span>
+          </h1>
+        </div>
+      </main>
+
+      <!-- About section -->
+      <section id="about">
+        <!-- About contents -->
+        <article class="animate fade-left">
+          <h2>MEET <span>BREWBLE</span></h2>
+          <h3>
+            <span>Sip.</span>
+            <span>Chew.</span>
+            <span>Smile.</span>
+            <span>Repeat.</span>
+          </h3>
+          <p>
+            At Bubble Coffee, we mix bold brews with chewy boba pearls to create
+            a drink that's more than just coffee. Every sip is smooth, every
+            bubble is fun, and every cup is made to brighten your mood
+          </p>
+          <button class="main-button">SHOP US</button>
+        </article>
+
+        <!-- About center sec image -->
+        <img
+          class="about-sec-img animate rotate-Out"
+          src="./assets/main-bubble-tea.png"
+          alt="main bubble tea image"
+        />
+
+        <!-- cards section -->
+        <div class="overall-boxes animate fade-right">
+          <!-- card box 1 -->
+          <div class="card-box box1">
+            <img class="box-img" src="./assets/box1.jpg" alt="box1" />
+            <h5>Create Memories</h5>
+            <p>
+              More than coffee, it's a place to connect,and create memories
+              together
+            </p>
+
+            <!-- right bottom shape -->
+            <img
+              class="right-bot-img"
+              src="assets/Rectangle 3 (2).png"
+              alt="right bottome shape"
+            />
+            <span>Join the Vibe</span>
+          </div>
+          <!-- card box 2 -->
+          <div class="card-box box2">
+            <img class="box-img" src="./assets/box2_option.jpg" alt="box1" />
+            <h5>Seasonal Specials</h5>
+            <p>
+              Exclusive flavors crafted for every season - here for a short
+              time, loved for a long time
+            </p>
+
+            <!-- right bottom shape -->
+            <img
+              class="right-bot-img"
+              src="assets/Rectangle 3 (2).png"
+              alt="right bottome shape"
+            />
+            <span>Try It</span>
+          </div>
+          <!-- card box 3 -->
+          <div class="card-box box3">
+            <img class="box-img" src="./assets/box3.png" alt="box1" />
+            <h5>Signature Drink</h5>
+            <p>Rich espresso blended with creamy milk and chewy pearls</p>
+
+            <!-- right bottom shape -->
+            <img
+              class="right-bot-img"
+              src="assets/Rectangle 3 (2).png"
+              alt="right bottome shape"
+            />
+            <span>Best Seller</span>
+          </div>
+          <!-- card box 4 -->
+          <div class="card-box box4">
+            <img class="box-img" src="./assets/box4.jpg" alt="box1" />
+            <h5>Flavors</h5>
+            <p>Refreshing fruity twist with mango & passion fruit boba</p>
+
+            <!-- right bottom shape -->
+            <img
+              class="right-bot-img"
+              src="assets/Rectangle 3 (2).png"
+              alt="right bottome shape"
+            />
+            <span>New Arrival</span>
+          </div>
+          <!-- card box 5 -->
+          <div class="card-box box5">
+            <img class="box-img" src="./assets/box5.jpg" alt="box1" />
+            <h5>Cafe Vibe</h5>
+            <p>A cozy spot to sip, chill, and share moments</p>
+
+            <!-- right bottom shape -->
+            <img
+              class="right-bot-img"
+              src="assets/Rectangle 3 (2).png"
+              alt="right bottome shape"
+            />
+            <span>Visit Us</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- about next section -->
+      <section class="next-about animate zoom-in">
+        <h2>BREWED <span>FRESH</span>, <span>BUBBLED</span> WITH JOY</h2>
+        <div class="about-next-sec-image">
+          <img src="./assets/main-bubble-tea.png" alt="main bubble tea image" />
+        </div>
+        <button class="btn1">Chewey Tapioca Pearls</button>
+        <button class="btn2">Ice-Cold Refreshment</button>
+        <button class="btn3">Happiness in Every Cup</button>
+        <button class="btn4">Freshly Brewed Coffee</button>
+        <button class="btn5">Sweetness Your Way</button>
+        <button class="btn6">Customizable Sweetness</button>
+        <button class="btn7">Creamy & Fun</button>
+      </section>
+
+      <!-- Products section -->
+      <section id="products">
+        <h2 class="animate zoom-in">CRAFTED <span>FAVORITES</span></h2>
+        <p>"A refined selection of our most cherished blends."</p>
+        <!-- over all products box  -->
+        <div class="products-box">
+          <!-- product card 1 -->
+          <div class="card animate fade-left">
+            <!-- floating product image -->
+            <img class="cup" src="./assets/pnk 2.png" alt="bubble tea" />
+            <!-- product background -->
+            <div class="product-bg">
+              <!-- background image -->
+              <img
+                class="product-bg-img"
+                src="./assets/product1.png"
+                alt="product background"
+              />
+              <!-- content -->
+              <div class="content">
+                <h4>Sweet Blush</h4>
+                <div class="balance-content">
+                  <p>
+                    "Juicy strawberries swirled with velvety cream for a sweet
+                    indulgence."
+                  </p>
+                  <div class="bott">
+                    <h5>20 $</h5>
+                    <div class="add">+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product card 2 -->
+          <div class="card animate rotate-left">
+            <!-- floating product image -->
+            <img class="cup" src="./assets/choco.png" alt="bubble tea" />
+            <!-- product background -->
+            <div class="product-bg">
+              <!-- background image -->
+              <img
+                class="product-bg-img"
+                src="./assets/product2.png"
+                alt="product background"
+              />
+              <!-- content -->
+              <div class="content">
+                <h4>Caramel Pearl</h4>
+                <div class="balance-content">
+                  <p>
+                    "Caramelized richness paired with soft, chewy pearls in
+                    every sip."
+                  </p>
+                  <div class="bott">
+                    <h5>22 $</h5>
+                    <div class="add">+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product card 3 -->
+          <div class="card animate rotate-right">
+            <!-- floating product image -->
+            <img
+              class="cup big-cup"
+              src="./assets/grape.png"
+              alt="bubble tea"
+            />
+            <!-- product background -->
+            <div class="product-bg">
+              <!-- background image -->
+              <img
+                class="product-bg-img"
+                src="./assets/product3.png"
+                alt="product background"
+              />
+              <!-- content -->
+              <div class="content">
+                <h4>Taro Delight</h4>
+                <div class="balance-content">
+                  <p>
+                    "Velvety, nutty, and naturally vibrant a purple classic
+                    reimagined."
+                  </p>
+                  <div class="bott">
+                    <h5>24 $</h5>
+                    <div class="add">+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product card 4 -->
+          <div class="card animate fade-right">
+            <!-- floating product image -->
+            <img class="cup" src="./assets/mango.png" alt="bubble tea" />
+            <!-- product background -->
+            <div class="product-bg">
+              <!-- background image -->
+              <img
+                class="product-bg-img"
+                src="./assets/product4.png"
+                alt="product background"
+              />
+              <!-- content -->
+              <div class="content">
+                <h4>Mango Passion</h4>
+                <div class="balance-content">
+                  <p>
+                    "A tropical fusion of ripe mango and tangy passionfruit."
+                  </p>
+                  <div class="bott">
+                    <h5>24 $</h5>
+                    <div class="add">+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Info section -->
+      <section id="info" class="animate zoom-in">
+        <h2>WHY <span>BREWBLE </span>STANDS OUT IN EVERY SIP</h2>
+        <p>
+          At Brewble, we believe that quality starts with the best ingredients.
+          Each cup of our bubble coffee is crafted to perfection, ensuring a
+          delightful experience with every sip.
+        </p>
+        <!-- cards sec -->
+        <div class="over-all-cards">
+          <!-- card 1 -->
+          <div class="card">
+            <div class="icon">
+              <img src="./assets/community_icon.png" alt="community_icon" />
+            </div>
+            <h4>Join the Brewble Community Today!</h4>
+            <p>Become part of our vibrant coffee-loving family.</p>
+          </div>
+          <!-- card 1 -->
+          <div class="card">
+            <div class="icon">
+              <img src="./assets/compas_icon.png" alt="compas_icon" />
+            </div>
+            <h4>A Flavor Adventure Awaits You</h4>
+            <p>Explore a world of flavors that excite your palate.</p>
+          </div>
+          <!-- card 1 -->
+          <div class="card">
+            <div class="icon">
+              <img src="./assets/experience_icon.png" alt="experience_icon" />
+            </div>
+            <h4>Experience Bubble Coffee Like Never Before</h4>
+            <p>Join us for a unique coffee journey that’s fun and memorable.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Review section  -->
+      <section id="reviews" class="animate fade-up">
+        <h2>WORDS OF <span>APPRECIATION</span></h2>
+        <p>"Echoes of happiness in every bubble."</p>
+        <!-- review cards sec -->
+        <div class="review-ovar-all">
+          <!-- review original -->
+          <div class="review-cards">
+            <!-- review card 1 -->
+            <div class="review-card">
+              <div class="first-line">
+                <img
+                  class="cust-img"
+                  src="./assets/cust1.jpg"
+                  alt="customer image"
+                />
+                <div>
+                  <h4>Andresan</h4>
+                  <!-- stars -->
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "The best bubble tea I've ever had! The pearls are perfectly
+                chewy, and the flavors taste so fresh."
+              </p>
+            </div>
+            <!-- review card 2 -->
+            <div class="review-card">
+              <div class="first-line">
+                <img
+                  class="cust-img"
+                  src="./assets/cust2.jpg"
+                  alt="customer image"
+                />
+                <div>
+                  <h4>Karan M</h4>
+                  <!-- stars -->
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "Brewble has completely spoiled me. Once you try their Brown
+                Sugar Pearl, nothing else compares."
+              </p>
+            </div>
+            <!-- review card 3 -->
+            <div class="review-card">
+              <div class="first-line">
+                <img
+                  class="cust-img"
+                  src="./assets/cust3.jpg"
+                  alt="customer image"
+                />
+                <div>
+                  <h4>Rahul S</h4>
+                  <!-- stars -->
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "Finally, a bubble tea shop that feels both fun and premium.
+                Great vibes and amazing taste!"
+              </p>
+            </div>
+            <!-- review card 4 -->
+            <div class="review-card">
+              <div class="first-line">
+                <img
+                  class="cust-img"
+                  src="./assets/cust4.jpg"
+                  alt="customer image"
+                />
+                <div>
+                  <h4>Neha S</h4>
+                  <!-- stars -->
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "I love the variety of flavors. My personal favorite is Taro
+                Delight — so creamy and smooth."
+              </p>
+            </div>
+          </div>
+          <!-- review duplicate for animation -->
+          <div class="review-cards">
+            <!-- review card 1 -->
+            <div class="review-card">
+              <div class="first-line">
+                <img
+                  class="cust-img"
+                  src="./assets/cust1.jpg"
+                  alt="customer image"
+                />
+                <div>
+                  <h4>Andresan</h4>
+                  <!-- stars -->
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "The best bubble tea I've ever had! The pearls are perfectly
+                chewy, and the flavors taste so fresh."
+              </p>
+            </div>
+            <!-- review card 2 -->
+            <div class="review-card">
+              <div class="first-line">
+                <img
+                  class="cust-img"
+                  src="./assets/cust2.jpg"
+                  alt="customer image"
+                />
+                <div>
+                  <h4>Karan M</h4>
+                  <!-- stars -->
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "Brewble has completely spoiled me. Once you try their Brown
+                Sugar Pearl, nothing else compares."
+              </p>
+            </div>
+            <!-- review card 3 -->
+            <div class="review-card">
+              <div class="first-line">
+                <img
+                  class="cust-img"
+                  src="./assets/cust3.jpg"
+                  alt="customer image"
+                />
+                <div>
+                  <h4>Rahul S</h4>
+                  <!-- stars -->
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "Finally, a bubble tea shop that feels both fun and premium.
+                Great vibes and amazing taste!"
+              </p>
+            </div>
+            <!-- review card 4 -->
+            <div class="review-card">
+              <div class="first-line">
+                <img
+                  class="cust-img"
+                  src="./assets/cust4.jpg"
+                  alt="customer image"
+                />
+                <div>
+                  <h4>Neha S</h4>
+                  <!-- stars -->
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "I love the variety of flavors. My personal favorite is Taro
+                Delight — so creamy and smooth."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer id="contact" class="animate fade-up">
+        <!-- Top footer sec -->
+        <div class="top-foot">
+          <div class="foot-logo-sec">
+            <img
+              class="foot-logo-img"
+              src="./assets/logo_dark.png"
+              alt="logo"
+            />
+            <p>
+              We'd love to hear from you! Reachh out with any questions or
+              feedback.
+            </p>
+          </div>
+          <div class="foot-nav">
+            <h5>Navigation</h5>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact Us</a>
+          </div>
+          <div class="foot-update">
+            <h5>Stay Update</h5>
+            <p>Blogs</p>
+            <p>Events</p>
+            <p>Feedback</p>
+            <p>Support</p>
+          </div>
+          <div class="foot-contact">
+            <h5>Get In Touch</h5>
+            <p><i class="fa-solid fa-envelope"></i> brewble@gmail.com</p>
+
+            <p><i class="fa-solid fa-phone"></i> +1 (222) 142-7463</p>
+
+            <p>
+              <i class="fa-solid fa-location-dot"></i> 456 Brew Lane, Sydney NSW
+              2000 AU
+            </p>
+          </div>
+        </div>
+        <!-- center line -->
+        <div class="foot-line"></div>
+        <!-- last foot sec -->
+        <div class="last-foot">
+          <div class="rights">
+            <p>© 2026 Brewble. All Rights Reserved.</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+
+          <ul class="socials">
+            <li><i class="fa-brands fa-facebook"></i> <span>Facebook</span></li>
+            <li>
+              <i class="fa-brands fa-instagram"></i> <span>Instagram</span>
+            </li>
+            <li><i class="fa-brands fa-x-twitter"></i> <span>Twitter</span></li>
+            <li><i class="fa-brands fa-linkedin"></i> <span>LinkedIn</span></li>
+            <li><i class="fa-brands fa-youtube"></i> <span>Youtube</span></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
